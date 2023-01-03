@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: black;;
+            padding: 5px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        aside>article{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quis, illum maiores voluptates doloremque, mollitia quasi facilis iure itaque officia a tempora modi natus. Error quos dolores repellat facilis eos.</p>
+                <aside>
+                    Artigo escrito por Josué da Silva
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Desenvolvido aprendendo no Curso em Vídeo</h1>
+    </footer>
+</body>
+</html>
